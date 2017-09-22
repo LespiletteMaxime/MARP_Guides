@@ -10,4 +10,4 @@ Instructions relatives aux contenus des diapositives
 Guide avancée : 
 Directives relatives à la mise en forme des dispositives
 
-Les deux guides sont fr, vous êtes libres de les traduire dans votre langue.
+Les deux guides sont fr, vous êtes libre de les traduire dans votre langue.
