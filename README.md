@@ -4,7 +4,7 @@ Guide syntaxe MARP pour utilisateurs de base
 Ces guides de syntaxe MarkDown pour l'éditeur [MARP](https://yhatt.github.io/marp/) sont des synthèses des différentes instructions 
 et directives spécifiques à ce générateur de diaporamas.
 
-Ils n'ont pas vocation à être exhaustif mais plutôt réservé à un public à la découverte de l'outil MARP.
+Ils n'ont pas vocation à être exhaustifs mais plutôt réservés à un public à la découverte de l'outil MARP.
 
 ## Guide de syntaxe simple :
 
@@ -29,4 +29,4 @@ Ils n'ont pas vocation à être exhaustif mais plutôt réservé à un public à
 	-  	Numérotation des diapositives
 
 
-Les deux guides sont en français, les contributeurs sont bienvenus.
+Les deux guides sont en français, les contributeurs traducteurs sont bienvenus.
