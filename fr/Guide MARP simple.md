@@ -1,3 +1,8 @@
+<!-- $theme: gaia -->
+<!-- $width: 1024 -->
+<!-- $size: 16:9 -->
+
+
 MARP Guide rapide
 ---
 
