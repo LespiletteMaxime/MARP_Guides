@@ -1,13 +1,29 @@
 <!-- $theme: gaia -->
-<!-- $width: 1024 -->
-<!-- $size: 16:9 -->
+<!-- $width: 1600 -->
+<!-- $size: a4 -landscape -->
 
 
-MARP Guide rapide
+# MARP Guide de syntaxe
+
+
+Guide de syntaxe pour [MARP](https://yhatt.github.io/marp/).
+
+<!-- footer: MARP guide de syntaxe Version 1.1 -->
+
+---
+### Au sommaire :
+- Nouvelle diapositive
+- Les titres
+- Attributs du texte
+- Des couleurs en HTML
+- Les listes
+- Le tableau
+
 ---
 
 
-Pour insérer une nouvelle diapositive, ajouter 3 tirets au début de la page en passant une ligne avant et après :
+
+Pour insérer une nouvelle diapositive, ajouter 3 tirets au début de la diapositive en passant une ligne avant et après :
 
 ```
 
@@ -15,7 +31,9 @@ Pour insérer une nouvelle diapositive, ajouter 3 tirets au début de la page en
 
 ```
 
-<!--Commentaire 3 quotes inversés Alt Gr-7 délimitent un cadre dans lequel les codes de formatage ne sont pas interprétés -->
+<!--Commentaire 
+3 quotes inversés Alt Gr-7 délimitent un cadre dans lequel les codes de formatage ne sont pas interprétés 
+-->
 
 ---
 
@@ -67,29 +85,24 @@ Texte avec `un arrière-plan` gris
 ```
 ---
 
-# On peut aussi ajouter de la <span style="color:blue">couleur !</span>
-
----
-
-C'est un peu plus compliqué...
-
-On encadre le texte avec les balises HTML suivantes :
+ ##### On peut aussi ajouter de la <span style="color:blue">couleur !</span> avec du HTML :
 
 ```
 # De la <span style="color:blue">couleur !</span>
 ```
 
-Modifier **blue** par la couleur exprimée en anglais ou par un équivalent en hexadécimal (http://www.code-couleur.com/)
+Couleur en anglais ou en hexadécimal [Liste des couleurs](http://www.commentcamarche.net/contents/490-codes-couleur-html)
 
-Texte <span style="color:#FF358B">rose</span> !
 
 ```
 Texte <span style="color:#FF358B">rose</span> !
 ```
+
+Texte <span style="color:#FF358B">rose</span> !
 
 ---
 
-On peut ajouter des emoji comme un :smile:
+On peut ajouter des **emoji** comme un :smile:
 
 Ou encore :
  :paperclip:   :fr:  :heavy_check_mark:
@@ -107,14 +120,16 @@ Liste des codes emoji : https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
 ## Les listes :
 
-Une liste non numérotée :
+### Une liste non numérotée :
 - banane
 	- verte
 	- plantain 
 - pomme
 - poire
 
-Une liste numérotée : 
+---
+
+### Une liste numérotée : 
 1. banane
 2. pomme
 3. poirel
@@ -150,7 +165,7 @@ Une liste numérotée :
 ---
 La première ligne est l'en-tête du tableau
 Les cellules sont séparées par un trait | Alt Gr-6
-La seconde ligne précise précise l'alignement
+La seconde ligne précise l'alignement
 :- à gauche
 :-: centré
 -: à droite
@@ -164,74 +179,5 @@ La seconde ligne précise précise l'alignement
 |Russe|Non|Non|Oui|
 ```
 
----
-
-## Lien vers un site ou une page
-
-:white_check_mark: Copier et coller le lien directement dans l'éditeur:
-
-https://images.google.fr/
-
-:white_check_mark: Lien sur un mot, exemple :
-
-Rendez-vous sur [Google Images](https://images.google.fr/) pour effectuer la recherche.
-
----
-
-La syntaxe est très simple :
-- entre crochets le texte du lien 
-- entre parenthèses le lien complet
-
-```
-Rendez-vous sur [Google Images](https://images.google.fr/)
-pour effectuer la recherche.
-```
-
----
-
-### Insérer une image
-
-Tout d'abord, il faut stocker l'image dans le même dossier que celui du fichier Marp ou dans un sous-dossier, comme par exemple *images/*. 
-
-![40% center](images/Plan-Campus-Arras-2017.jpg)
-
----
-
-## La syntaxe est presque identique aux liens :
-
-```
-![40% center](images/Plan-Campus-Arras-2017.jpg)
-```
-
-On ajoute un ! devant
-Paramètres optionnels : 
-:arrow_right: 40% taille de l'image (150% pour agrandir de moitié)
-:arrow_right: center ou rien pour à gauche
-
----
-
-# Papier peint
-
-![bg](images/paper.jpg)
-
----
-
-# Cette instruction doit être ajoutée à toutes les pages
-
-![bg](images/paper.jpg)
-
-bg pour BackGround
 
 
-```
-![bg](images/paper.jpg)
-```
-
-Paramètres optionnels : 
-50% :arrow_right:  de la taille originale du fichier
-original :arrow_right: pas d'adaptation à l'écran
-
-```
-![bg 50%](images/paper.jpg)
-![bg original](images/paper.jpg)
-```
