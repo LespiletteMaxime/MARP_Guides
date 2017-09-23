@@ -24,7 +24,7 @@ Ils n'ont pas vocation à être exhaustifs mais plutôt réservés à un public 
 - Les directives 
 	-  	Thème
 	-  	Video inversion
-	-  	Dimesions des diapositives
+	-  	Dimensions des diapositives
 	-  	Pied de page
 	-  	Numérotation des diapositives
 
