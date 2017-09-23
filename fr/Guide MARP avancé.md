@@ -19,7 +19,7 @@ Guide de syntaxe pour la mise en forme [MARP](https://yhatt.github.io/marp/).
 - Les directives 
 	-  	Thème
 	-  	Video inversion
-	-  	Dimesions des diapositives
+	-  	Dimensions des diapositives
 	-  	Pied de page
 	-  	Numérotation des diapositives
 
