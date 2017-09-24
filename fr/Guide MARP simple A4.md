@@ -1,8 +1,3 @@
-<!-- $theme: gaia -->
-<!-- $width: 1600 -->
-<!-- $size: a4 -landscape -->
-
-
 # MARP Guide de syntaxe
 
 
